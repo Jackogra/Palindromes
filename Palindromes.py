@@ -1,0 +1,2 @@
+def palindrome(word):
+    pass
