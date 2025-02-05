@@ -17,10 +17,16 @@ Do zadania dodaj krótką dokumentację i umieść je w zdalnym repozytorium. Li
 """
 
 def palindrome(word):
+    """
+    The palindrome function checks whether a given word is a palindrome
+    (a word that reads the same forwards and backwards).
+    :param word:
+    :return: Bool
+    """
     reversed_word = str(word[::-1])
     if word == reversed_word:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
-palindrome(19)
+print(palindrome("jamajka"))
