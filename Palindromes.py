@@ -23,10 +23,16 @@ def palindrome(word):
     :param word:
     :return: Bool
     """
+    # Create reversed word using string indexation
     reversed_word = str(word[::-1])
+
+    # Compare original word to a reversed one
     if word == reversed_word:
+        # If there is a match, they are Palindrome
         return True
     else:
+        # If there is NO match, they are NOT Palindrome
         return False
 
+# Print output to check functionality
 print(palindrome("jamajka"))
