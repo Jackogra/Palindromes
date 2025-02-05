@@ -17,4 +17,10 @@ Do zadania dodaj krótką dokumentację i umieść je w zdalnym repozytorium. Li
 """
 
 def palindrome(word):
-    pass
+    reversed_word = str(word[::-1])
+    if word == reversed_word:
+        print(True)
+    else:
+        print(False)
+
+palindrome(19)
