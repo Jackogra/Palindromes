@@ -24,7 +24,7 @@ def palindrome(word):
     :return: Bool
     """
     # Create reversed word using string indexation
-    return bool(word == str(word[::-1]))
+    return word == str(word[::-1])
 """
     # Compare original word to a reversed one
     if word == reversed_word:
@@ -35,4 +35,4 @@ def palindrome(word):
         return False
 """
 # Print output to check functionality
-print(palindrome("mamam"))
+print(palindrome("Myszka Miki"))
